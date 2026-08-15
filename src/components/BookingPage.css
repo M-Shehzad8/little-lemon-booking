@@ -1,0 +1,62 @@
+.booking-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+}
+
+.booking-page__intro {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.booking-page__intro h1 {
+  font-family: 'Markazi Text', Georgia, serif;
+  color: #495e57;
+  font-size: 2.4rem;
+  margin: 0 0 0.5rem;
+}
+
+.booking-page__intro p {
+  font-family: 'Karla', sans-serif;
+  color: #333333;
+  margin: 0;
+}
+
+.booking-page__confirm {
+  background: #edefee;
+  border: 1px solid #495e57;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.booking-page__confirm h2 {
+  font-family: 'Markazi Text', Georgia, serif;
+  color: #495e57;
+  margin-top: 0;
+}
+
+.booking-page__confirm p {
+  font-family: 'Karla', sans-serif;
+}
+
+.booking-page__again {
+  margin-top: 1rem;
+  background-color: #495e57;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .booking-page {
+    padding: 1.75rem 1rem;
+  }
+  .booking-page__intro h1 {
+    font-size: 1.9rem;
+  }
+}

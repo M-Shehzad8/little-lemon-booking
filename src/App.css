@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Karla', 'Segoe UI', system-ui, sans-serif;
+  background-color: #edefee;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  font-family: 'Markazi Text', Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
